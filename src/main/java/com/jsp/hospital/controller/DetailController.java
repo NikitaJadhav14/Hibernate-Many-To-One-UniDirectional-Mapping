@@ -7,10 +7,10 @@ public class DetailController {
 
 	public static void main(String[] args) {
 		HospitalSrevice hospitalSrevice = new HospitalSrevice();
-		hospitalSrevice.geHospitalById(1);
+		hospitalSrevice.geHospitalById(2);
 
 		BranchService branchService = new BranchService();
-		branchService.geBranchById(1);
+		branchService.geBranchById(2);
 
 	}
 

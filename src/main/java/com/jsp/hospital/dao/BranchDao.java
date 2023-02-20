@@ -25,6 +25,9 @@ public class BranchDao {
 
 	public Branch getBranchByID(int id) {
 		Branch b1 = entityManager.find(Branch.class, id);
+		System.out.println(b1.getId());
+		System.out.println(b1.getBranchName());
+		System.out.println(b1.getBaranchloc());
 		return b1;
 	}
 

@@ -24,6 +24,9 @@ public class HospitalDao {
 
 	public Hospital getHospitalById(int id) {
 		Hospital h1 = entityManager.find(Hospital.class, id);
+		System.out.println(h1.getId());
+		System.out.println(h1.getName());
+		System.out.println(h1.getLincenceno());
 		return h1;
 	}
 
